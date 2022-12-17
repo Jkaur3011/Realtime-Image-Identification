@@ -1,0 +1,73 @@
+    .heading {
+      font-size: 22px;
+      width: 100%;
+      margin: 0px;
+      box-shadow: 5px 5px 5px grey;
+    }
+
+    .heading_div {
+      float: none;
+      background: white;
+      border-radius: 20px;
+      color: black;
+      box-shadow: 5px 5px 5px grey;
+    }
+
+    .heading_div2 {
+      font-size: 18px;
+    }
+
+    .result_para_tag {
+      box-shadow: 5px 5px 5px grey;
+      font-size: 16px;
+      animation-name: j;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes j {
+      from {
+        margin-left: 0px;
+      }
+
+      to {
+        margin-left: 200px;
+      }
+
+    }
+
+    .result_para_tag span {
+      white-space: pre-line;
+
+    }
+
+    footer {
+      background-color: gray;
+      color: white;
+      font-size: 15px;
+      line-height: 3;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+    }
+
+    canvas {
+      border-color: black;
+      border-style: solid;
+      border-width: 3px;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      animation-name: canvas_animation;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes canvas_animation {
+      from {
+        box-shadow: 10px 10px 50px 2px black;
+      }
+
+      to {
+        box-shadow: 10px 10px 50px 2px blue;
+      }
+    }
